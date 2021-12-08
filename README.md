@@ -45,12 +45,14 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 In this section I will insert a navigation overview for all user interaction.
 
 #### Select a Time Mode
-You can select from up to 20 time modes with settings for time or weight. 
-There are two different time modes: multi selection and single selection (FLAT_MODE in UI.h).
+You can select from up to 20 modes with settings for time or weight. 
+For each mode there are two different options available: 
+- multi selection 
+- single selection (FLAT_MODE in UI.h).
 
 ##### multi selection
 For every mode there are timeings for a single click, double click (or mill switch 2, if available) and long click.
-For a click mode you can set a time / weight or "start/stop" (start mill with click start and stopping it at the next) or hold (longer click, only if more buttons are available).
+For each click methode you can set a time / weight or "start/stop" (start mill with click start and stopping it at the next) or hold (longer click, only if more buttons are available).
 If there is no mill button then you can only choose from single and double click. Long click is then bound to the edit menu.
 
 ###### Portrait mode
