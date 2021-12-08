@@ -42,7 +42,11 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 ### User Interface
 
 #### navigation overview
-In this section I will insert a navigation overview for all user interaction.
+In this section I will insert a navigation overview for all user interaction.The first draft can be seen below. The source data from draw.io is inside: ./Assets/navigation/
+
+Needs to be continued.<br>
+![Navigation Overview](./Assets/navigation/navigationOverview_lightMode.png#gh-light-mode-only)
+![Navigation Overview](./Assets/navigation/navigationOverview_darkMode.png#gh-dark-mode-only)
 
 #### Select a Time Mode
 You can select from up to 20 modes with settings for time or weight. 
