@@ -51,8 +51,8 @@ Needs to be continued.<br>
 #### Select a Time Mode
 You can select from up to 20 modes with settings for time or weight. 
 For each mode there are two different options available: 
-- multi selection 
-- single selection (FLAT_MODE in UI.h).
+- multi selection: mulitple options are available
+- single selection: only one option is available (FLAT_MODE in UI.h).
 
 ##### multi selection
 For every mode there are timeings for a single click, double click (or mill switch 2, if available) and long click.
@@ -66,7 +66,7 @@ If there is no mill button then you can only choose from single and double click
 ![SelectTimeWeightDirect](./Assets/pictures/timeWeightDirect_L.png)
 
 ##### single selection
-Every time / weight has its own side. With one click this site will be startet. In the direct mode ("start") will start the mill until another click stopps the mill, hold (the hold function also does something. But not clear what.).
+Every time or weight mode has its own site. With one click this site will be started. In the direct mode ("start") will start the mill until another click stopps the mill, hold (the hold function also does something. But not clear what.).
 
 ###### Portrait mode
 ![SelectTimeWeightDirect](./Assets/pictures/scaleDirect_P.png)
