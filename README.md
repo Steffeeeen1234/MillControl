@@ -65,15 +65,21 @@ Work in progress:
 ### User Interface
 
 #### navigation overview
-In this section I will insert a navigation overview for all user interaction.
+In this section I will insert a navigation overview for all user interaction.The first draft can be seen below. The source data from draw.io is inside: ./Assets/navigation/
+
+Needs to be continued.<br>
+![Navigation Overview](./Assets/navigation/navigationOverview_lightMode.png#gh-light-mode-only)
+![Navigation Overview](./Assets/navigation/navigationOverview_darkMode.png#gh-dark-mode-only)
 
 #### Select a Time Mode
-You can select from up to 20 time modes with settings for time or weight. 
-There are two different time modes: multi selection and single selection (FLAT_MODE in UI.h).
+You can select from up to 20 modes with settings for time or weight. 
+For each mode there are two different options available: 
+- multi selection: mulitple options are available
+- single selection: only one option is available (FLAT_MODE in UI.h).
 
 ##### multi selection
 For every mode there are timeings for a single click, double click (or mill switch 2, if available) and long click.
-For a click mode you can set a time / weight or "start/stop" (start mill with click start and stopping it at the next) or hold (longer click, only if more buttons are available).
+For each click methode you can set a time / weight or "start/stop" (start mill with click start and stopping it at the next) or hold (longer click, only if more buttons are available).
 If there is no mill button then you can only choose from single and double click. Long click is then bound to the edit menu.
 
 ###### Portrait mode
@@ -83,7 +89,7 @@ If there is no mill button then you can only choose from single and double click
 ![SelectTimeWeightDirect](./Assets/pictures/timeWeightDirect_L.png)
 
 ##### single selection
-Every time / weight has its own side. With one click this site will be startet. In the direct mode ("start") will start the mill until another click stopps the mill, hold (the hold function also does something. But not clear what.).
+Every time or weight mode has its own site. With one click this site will be started. In the direct mode ("start") will start the mill until another click stopps the mill, hold (the hold function also does something. But not clear what.).
 
 ###### Portrait mode
 ![SelectTimeWeightDirect](./Assets/pictures/scaleDirect_P.png)
